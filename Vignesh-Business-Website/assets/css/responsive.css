@@ -1,0 +1,276 @@
+/* ===================================
+   Mobile Devices
+=================================== */
+
+@media (max-width:576px){
+
+section{
+
+padding:60px 0;
+
+}
+
+.hero{
+
+text-align:center;
+
+padding-top:100px;
+
+}
+
+.hero h1{
+
+font-size:38px;
+
+}
+
+.hero h3{
+
+font-size:22px;
+
+}
+
+.hero p{
+
+font-size:16px;
+
+}
+
+.hero img{
+
+width:240px;
+
+margin-top:30px;
+
+}
+
+.navbar-brand{
+
+font-size:24px;
+
+}
+
+.business-card{
+
+padding:25px;
+
+margin-bottom:20px;
+
+}
+
+.section-title{
+
+font-size:30px;
+
+}
+
+.contact-box{
+
+margin-bottom:30px;
+
+}
+
+.btn{
+
+width:100%;
+
+margin-bottom:10px;
+
+}
+
+.whatsapp{
+
+width:55px;
+
+height:55px;
+
+font-size:24px;
+
+right:15px;
+
+bottom:15px;
+
+}
+
+.call{
+
+width:55px;
+
+height:55px;
+
+font-size:22px;
+
+left:15px;
+
+bottom:15px;
+
+}
+
+#topBtn{
+
+width:50px;
+
+height:50px;
+
+right:15px;
+
+bottom:80px;
+
+}
+
+}
+
+/* ===================================
+   Tablet Devices
+=================================== */
+
+@media (min-width:577px) and (max-width:991px){
+
+.hero{
+
+text-align:center;
+
+padding-top:100px;
+
+}
+
+.hero h1{
+
+font-size:50px;
+
+}
+
+.hero img{
+
+width:300px;
+
+margin-top:40px;
+
+}
+
+.business-card{
+
+margin-bottom:30px;
+
+}
+
+.contact-box{
+
+margin-bottom:30px;
+
+}
+
+}
+
+/* ===================================
+   Laptop Devices
+=================================== */
+
+@media (min-width:992px) and (max-width:1199px){
+
+.hero h1{
+
+font-size:58px;
+
+}
+
+.hero img{
+
+width:340px;
+
+}
+
+}
+
+/* ===================================
+   Large Desktop
+=================================== */
+
+@media (min-width:1400px){
+
+.container{
+
+max-width:1320px;
+
+}
+
+.hero h1{
+
+font-size:72px;
+
+}
+
+.hero img{
+
+width:420px;
+
+}
+
+}
+
+/* ===================================
+   Landscape Mobile
+=================================== */
+
+@media (max-width:768px) and (orientation:landscape){
+
+.hero{
+
+min-height:auto;
+
+padding:120px 0;
+
+}
+
+}
+
+img{
+
+max-width:100%;
+
+height:auto;
+
+}
+
+.table-responsive{
+
+overflow-x:auto;
+
+}
+
+input,
+textarea,
+select{
+
+font-size:16px;
+
+}
+
+.hide-mobile{
+
+display:block;
+
+}
+
+.show-mobile{
+
+display:none;
+
+}
+
+@media(max-width:768px){
+
+.hide-mobile{
+
+display:none;
+
+}
+
+.show-mobile{
+
+display:block;
+
+}
+
+}
+
